@@ -4,6 +4,16 @@ body {
 
 .layoutInner {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 10%;
+}
+
+.cards-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding: 4%;
 }
