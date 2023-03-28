@@ -1,5 +1,17 @@
+import Header from "../components/header/header";
+import Footer from "../components/footer/footer";
+import Banner from "../components/banner/banner";
+import "../layout.css"
+
 export default function Home() {
     return (
-        <h1>Chez vous, partout et ailleurs</h1>
+        <div>
+            <Header />
+            <div className="layoutInner">
+                <Banner />
+
+            </div>
+            <Footer />
+        </div>
     );
   }

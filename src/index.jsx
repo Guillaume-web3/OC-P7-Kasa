@@ -5,8 +5,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import "./layout.css";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
+import About from "./pages/About";
+import HousingCard from "./pages/HousingCard";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +17,16 @@ const router = createBrowserRouter([
     element: <Home />,
     errorElement: <Error />,
   },
+  {
+    path: "/About",
+    element: <About />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/Card",
+    element: <HousingCard />,
+    errorElement: <Error />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.layoutInner {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
