@@ -1,9 +1,9 @@
 import "./banner.css"
 
-export default function Banner() {
+export default function Banner(props) {
  return (
-    <div className="banner">
-        <h1 className="slogan">Chez vous, partout et ailleurs</h1>
+    <div className= {`banner banner__${props.className}`}>
+        <h1 className="slogan">{props.slogan}</h1>
     </div>
  )
 }

@@ -4,12 +4,12 @@ import logo from "../../utils/logo.png"
 
 export default function Header() {
  return (
-    <div className="header">
-        <img src={logo} alt="Kasa" className="headerLogo" />
-        <div className="nav">
-            <Link to="/" className="link">Accueil</Link>
-            <Link to="/about" className="link">A Propos</Link>
+    <header className="header">
+        <img src={logo} alt="Kasa" className="header__logo" />
+        <div className="header__nav">
+            <Link to="/" className="header__nav__link">Accueil</Link>
+            <Link to="/about" className="header__nav__link">A Propos</Link>
         </div>
-    </div>
+    </header>
  )
 }

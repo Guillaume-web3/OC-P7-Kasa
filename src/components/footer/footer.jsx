@@ -3,9 +3,9 @@ import whiteLogo from "../../utils/white-logo.png"
 
 export default function Footer() {
  return (
-    <div className="footer">
-        <img src={whiteLogo} alt="Kasa" className="footerLogo" />
-        <p className="copyright">© 2020 Kasa. All rights reserved</p>
-    </div>
+    <footer className="footer">
+        <img src={whiteLogo} alt="Kasa" className="footer__logo" />
+        <p className="footer__copyright">© 2020 Kasa. All rights reserved</p>
+    </footer>
  )
 }

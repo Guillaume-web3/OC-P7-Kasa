@@ -1,3 +1,13 @@
+.cards {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding: 4%;
+}
+
 .card {
     position: relative;
     width: 340px;
@@ -5,7 +15,7 @@
     margin: 2%;
 }
 
-.card-cover {
+.card__cover {
     width: 100%;
     height: 340px;
     object-fit: cover;
@@ -14,7 +24,7 @@
     border-radius: 10px;
 }
 
-.card-title {
+.card__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -23,7 +33,7 @@
     color: #FFFFFF;
     
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 20px;
     width: 50%;
 }

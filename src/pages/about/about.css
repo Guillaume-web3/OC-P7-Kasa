@@ -1,0 +1,12 @@
+.about__main {
+    margin: 0 10%;
+}
+
+.about__accordions {
+    margin: 5px 0 200px 0;
+}
+
+.about__accordions .accordion {
+    margin: auto;
+    width: 60%;
+}
