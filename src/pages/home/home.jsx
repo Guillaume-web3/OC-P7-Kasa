@@ -1,4 +1,4 @@
-import React from "react"; // besoin sur chaque page?
+import React from "react";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import Banner from "../../components/banner/banner";
