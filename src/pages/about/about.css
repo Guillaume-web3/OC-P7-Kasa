@@ -1,12 +1,31 @@
 .about__main {
-    margin: 0 10%;
+  margin: 0 10%;
 }
 
 .about__accordions {
-    margin: 5px 0 200px 0;
+  margin: 5px 0 200px 0;
 }
 
 .about__accordions .accordion {
+  margin: auto;
+  width: 60%;
+}
+
+@media screen and (max-width: 576px) {
+  .about__main {
+    padding: 0 20px;
     margin: auto;
-    width: 60%;
+  }
+
+  .banner__aboutBanner {
+    height: 223px;
+  }
+
+  .about__accordions {
+    margin: 20px auto;
+  }
+
+  .about__accordions .accordion {
+    width: auto;
+  }
 }

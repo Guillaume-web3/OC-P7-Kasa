@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #ff6060;
+  --secondary-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +13,8 @@
   margin-block-start: 0;
   margin-block-end: 0;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
 }
 
 a {
@@ -17,6 +23,7 @@ a {
   cursor: pointer;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }

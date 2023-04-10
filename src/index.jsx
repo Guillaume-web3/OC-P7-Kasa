@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/home/home";
 import Error from "./pages/error/error";
@@ -14,19 +11,22 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <Error />,
   },
   {
     path: "/About",
     element: <About />,
+    errorElement: <Error />,
   },
   {
-    path: "/housingCard/*",
+    path: "/housingCard/:id",
     element: <HousingCard />,
+    errorElement: <Error />,
   },
   {
     path: "*",
-    element: <Error />
-  }
+    element: <Error />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

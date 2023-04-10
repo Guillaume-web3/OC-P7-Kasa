@@ -1,15 +1,26 @@
-.home__main{
-    display: flex;
-    flex-direction: column;
-    margin: 0 10%;
+.home__main {
+  display: flex;
+  flex-direction: column;
+  margin: auto 10%;
 }
 
 .home__main .slogan {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    color: #FFFFFF;
-    text-align: center;
-    margin: 80px 0 ;
+  font-weight: 500;
+  font-size: 48px;
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 80px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .home__main {
+    margin: 0 20px;
+  }
+  .home__main .slogan {
+    font-size: 24px;
+    text-align: start;
+    padding: 16px;
+    margin: auto 0;
+    width: 276px;
+  }
 }
