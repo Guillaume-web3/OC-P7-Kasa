@@ -11,6 +11,7 @@ import ErrorPage from "../error/error";
 
 export default function HousingCard() {
   let { id } = useParams();
+  console.log(id);
 
   const housing = housings.find((housing) => housing.id === id); // Extraction des datas concernant le bon id
   if (!housing) {

@@ -24,6 +24,10 @@
   text-decoration-line: underline;
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 @media screen and (max-width: 576px) {
   .header {
     padding: 20px;
